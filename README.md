@@ -8,11 +8,11 @@ print log unit
         }
 * add it to your dependencies
 
-        implementation "com.github.seelikes.android:log:1.0.0"
+        implementation "com.github.seelikes.android:log:1.0.1"
 * initialize it in your Application
 this is not necessary when you do not care about whether log should be print
 
-        SaLog.init(BuildConfig.DEBUG ? Logger.VERBOSE : Logger.ERROR);
+        SaLogConstants.setLevel(BuildConfig.DEBUG ? SaLogConstants.VERBOSE : SaLogConstants.ERROR);
 
 * concept
 
