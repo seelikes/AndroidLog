@@ -41,7 +41,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        SaLog.i(MainActivity.class, "onCreate", "enter.");
+        SaLog.v(MainActivity.class, "onCreate.UL5666LP.DI1211", "enter.");
+        SaLog.d(MainActivity.class, "onCreate.UL5666LP.DI1211", "enter.");
+        SaLog.i(MainActivity.class, "onCreate.UL5666LP.DI1211", "enter.");
+        SaLog.w(MainActivity.class, "onCreate.UL5666LP.DI1211", "enter.");
+        SaLog.e(MainActivity.class, "onCreate.UL5666LP.DI1211", "enter.");
 
         setContentView(R.layout.activity_main);
 

@@ -8,6 +8,7 @@ import java.io.StringWriter;
 public class SaLog {
     /**
      * 打印 {@link SaLogConstants#VERBOSE} 级别日志
+     * 警告：有些真机即使在USB调试打开的时候也不会打印v和d级别日志
      * @param whereClass 打印日志的类
      * @param whereMethod 打印日志的方法
      * @param msg 日志内容
@@ -20,6 +21,7 @@ public class SaLog {
 
     /**
      * 打印 {@link SaLogConstants#DEBUG} 级别日志
+     * 警告：有些真机即使在USB调试打开的时候也不会打印v和d级别日志
      * @param whereClass 打印日志的类
      * @param whereMethod 打印日志的方法
      * @param msg 日志内容

@@ -8,7 +8,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 101
-        versionName "1.0.1"
+        versionName "1.0.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -59,7 +59,7 @@ publishing {
         maven(MavenPublication) {
             groupId "com.github.seelikes.android"
             artifactId "log"
-            version "1.0.1"
+            version "1.0.2"
             artifact androidJavadocsJar
             artifact androidSourcesJar
             artifact bundleRelease
