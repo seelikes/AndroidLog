@@ -80,7 +80,7 @@ public class SaLog {
             PrintWriter pw = new PrintWriter(sw);
             throwable.printStackTrace(pw);
             pw.flush();
-            Log.d(whereClass.getSimpleName(), String.format("%s, %s", whereMethod, sw.toString()));
+            Log.e(whereClass.getSimpleName(), String.format("%s, %s", whereMethod, sw.toString()));
             pw.close();
         }
     }

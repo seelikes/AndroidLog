@@ -8,7 +8,7 @@ print log unit
         }
 * add it to your dependencies
 
-        implementation "com.github.seelikes.android:log:1.0.2"
+        implementation "com.github.seelikes.android:log:1.0.3"
 * initialize it in your Application
 this is not necessary when you do not care about whether log should be print
 
